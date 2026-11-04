@@ -52,6 +52,12 @@ The application source is MIT licensed and has no application-layer paywall. An 
 
 ## Build and verify
 
+The matching Vdevice demo driver source is available; see
+[driver/README.md](driver/README.md) for build instructions and separate
+evaluation-source terms. Those terms apply to Titan-authored driver code. Third-party
+source licenses and existing application/SDK licenses remain applicable. Full/commercial
+implementation and private signing or activation material are excluded.
+
 Install Visual Studio 2022 C++ tools, Windows SDK and CMake, then run:
 
 ```powershell
@@ -60,7 +66,7 @@ Install Visual Studio 2022 C++ tools, Windows SDK and CMake, then run:
 
 `-AddressSanitizer` enables memory instrumentation with a supported Visual Studio toolset. The build runs strict parser/descriptor tests and `--self-test` offline. `--preview` and `--screenshot file.png` also open no driver and send no inputs. Real Windows enumeration and hardware/application compatibility require live VM/target-system testing.
 
-`App/Fixture.h/.cpp` contain the bounded scenario parser and USB builder. `App/Session.cpp` owns all live Vdevice calls on one worker. `SDK/` contains the unchanged two-file demo SDK; kernel source is excluded. Third-party JSON licensing is embedded in its header.
+`App/Fixture.h/.cpp` contain the bounded scenario parser and USB builder. `App/Session.cpp` owns all live Vdevice calls on one worker. `SDK/` contains the unchanged two-file demo SDK; Demo/evaluation driver source is documented in [driver/README.md](driver/README.md). Third-party JSON licensing is embedded in its header.
 
 ## Responsible use
 
