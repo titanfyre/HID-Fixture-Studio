@@ -48,7 +48,7 @@ custom fixture. A successful Send updates the cached state.
 
 The bundled **Microsoft-signed Vdevice demo driver** allows one hour per Windows kernel boot, starting at first successful virtual-device creation. Windows Restart starts a new allowance. Driver signing covers the driver package, not this application EXE.
 
-The application source is MIT licensed and has no application-layer paywall. An unrestricted production driver and integration/support are available separately: Discord **Add Friend -> `titancsa`**. Production builds can select a privately supplied SDK with `-SdkDirectory`; no private SDK, key, server source or kernel source is included here.
+The application source is MIT licensed and has no application-layer paywall. An unrestricted production driver and integration/support are available separately: Discord **Add Friend -> `titancsa`**. Production builds can select a privately supplied SDK with `-SdkDirectory`; no private production SDK, key, activation-server source or full/commercial kernel implementation is included here. The matching timed demo driver source is documented in [driver/README.md](driver/README.md), with the file-specific terms in [driver/LICENSE-MAP.txt](driver/LICENSE-MAP.txt).
 
 ## Build and verify
 
