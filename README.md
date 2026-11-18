@@ -2,17 +2,6 @@
 
 Create and exercise a **virtual USB HID test device** from an editable report descriptor. A compact Windows C++ application for QA, accessibility research and HID integration work, powered by [Vdevice](https://github.com/TitanCSA/Vdevice).
 
-<!-- full-version-contact:start -->
-> [!IMPORTANT]
-> **Get the full driver version without demo restrictions**
->
-> **Discord username: `titancsa`**
->
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **HID Fixture Studio**.
->
-> The demo limit belongs to **Vdevice**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
-<!-- full-version-contact:end -->
-
 ![HID Fixture Studio](docs/app.png)
 
 **[Download the complete Windows release](https://github.com/titanfyre/HID-Fixture-Studio/releases/latest)**  -  For unrestricted driver licensing, OEM integration or support, add **`titancsa`** as a friend on Discord.
@@ -71,3 +60,16 @@ Install Visual Studio 2022 C++ tools, Windows SDK and CMake, then run:
 ## Responsible use
 
 Built for lawful testing, accessibility and software development. You are responsible for authorizations, laws and third-party rules. Illegal, malicious and unauthorized uses are not endorsed. Provided **AS IS**, without warranties; to the extent permitted by law, the author is not liable for misuse or damages. Mandatory rights remain unaffected. Driver binaries have separate distribution terms.
+
+## Commercial integration and support
+
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full driver version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **HID Fixture Studio**.
+>
+> The demo limit belongs to **Vdevice**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
+<!-- full-version-contact:end -->
