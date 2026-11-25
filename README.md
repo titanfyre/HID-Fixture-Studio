@@ -4,12 +4,12 @@ Create and exercise a **virtual USB HID test device** from an editable report de
 
 ![HID Fixture Studio](docs/app.png)
 
-**[Download the complete Windows release](https://github.com/titanfyre/HID-Fixture-Studio/releases/latest)**  -  For unrestricted driver licensing, OEM integration or support, add **`titancsa`** as a friend on Discord.
+**[Download HID Fixture Studio for Windows x64](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.1)** · [Vdevice Release · €400 Lifetime](https://licences.configcsa.com/vdevice)
 
 ## Install and use
 
 1. Windows 10/11 **x64**: extract the complete release ZIP.
-2. Run `Dependencies/VdeviceSetup.exe`, choose Install, and restart Windows if requested.
+2. Run `Dependencies/VdeviceSetup.exe`, choose Install, and restart Windows if requested. Release 0.1.1 bundles the [signed Vdevice 1.0.6.0 demo](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.0-demo) and its matching C++ SDK.
 3. Open `HIDFixtureStudio.exe`. Choose a mouse/keyboard fixture, or edit the VID/PID, raw report descriptor and input length.
 4. Choose **Validate offline**, then **Create device**. Live access requests administrator elevation when needed. Wait for Ready.
 5. Enter exact hex report bytes and choose **Send raw report**. Use a neutral report to release held keys/buttons. **Disconnect** removes the fixture; closing the application also removes its owned device.
@@ -35,14 +35,14 @@ custom fixture. A successful Send updates the cached state.
 
 ## Demo and production
 
-The bundled **Microsoft-signed Vdevice demo driver** allows one hour per Windows kernel boot, starting at first successful virtual-device creation. Windows Restart starts a new allowance. Driver signing covers the driver package, not this application EXE.
+The bundled **Microsoft-signed Vdevice 1.0.6.0 demo driver** allows one hour per Windows kernel boot, starting at first successful virtual-device creation. Windows Restart starts a new allowance. Driver signing covers the driver package, not this application EXE.
 
-The application source is MIT licensed and has no application-layer paywall. An unrestricted production driver and integration/support are available separately: Discord **Add Friend -> `titancsa`**. Production builds can select a privately supplied SDK with `-SdkDirectory`; no private production SDK, key, activation-server source or full/commercial kernel implementation is included here. The matching timed demo driver source is documented in [driver/README.md](driver/README.md), with the file-specific terms in [driver/LICENSE-MAP.txt](driver/LICENSE-MAP.txt).
+The application source is MIT licensed and has no application-layer paywall. An unrestricted production driver and integration/support are available separately: Discord **Add Friend -> `titancsa`**. Production builds can select a privately supplied SDK with `-SdkDirectory`; no private production SDK, key, activation-server source or full/commercial kernel implementation is included here.
 
 ## Build and verify
 
-The matching Vdevice demo driver source is available; see
-[driver/README.md](driver/README.md) for build instructions and separate
+The bundled driver comes from the pinned upstream Vdevice demo release. For the driver source in this repository, see
+[driver/README.md](https://github.com/titanfyre/HID-Fixture-Studio/tree/main/driver#readme) for build instructions and separate
 evaluation-source terms. Those terms apply to Titan-authored driver code. Third-party
 source licenses and existing application/SDK licenses remain applicable. Full/commercial
 implementation and private signing or activation material are excluded.
@@ -55,7 +55,7 @@ Install Visual Studio 2022 C++ tools, Windows SDK and CMake, then run:
 
 `-AddressSanitizer` enables memory instrumentation with a supported Visual Studio toolset. The build runs strict parser/descriptor tests and `--self-test` offline. `--preview` and `--screenshot file.png` also open no driver and send no inputs. Real Windows enumeration and hardware/application compatibility require live VM/target-system testing.
 
-`App/Fixture.h/.cpp` contain the bounded scenario parser and USB builder. `App/Session.cpp` owns all live Vdevice calls on one worker. `SDK/` contains the unchanged two-file demo SDK; Demo/evaluation driver source is documented in [driver/README.md](driver/README.md). Third-party JSON licensing is embedded in its header.
+`App/Fixture.h/.cpp` contain the bounded scenario parser and USB builder. `App/Session.cpp` owns all live Vdevice calls on one worker. `SDK/` contains the unchanged two-file demo SDK; Demo/evaluation driver source is documented in [driver/README.md](https://github.com/titanfyre/HID-Fixture-Studio/tree/main/driver#readme). Third-party JSON licensing is embedded in its header.
 
 ## Responsible use
 
@@ -69,7 +69,7 @@ Built for lawful testing, accessibility and software development. You are respon
 >
 > **Discord username: `titancsa`**
 >
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full driver version without the demo time limit**, and mention **HID Fixture Studio**.
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message for integration or support and mention **HID Fixture Studio**.
 >
-> The demo limit belongs to **Vdevice**, the driver used by this project. Ask for pricing and the appropriate license / activation instructions; the application or wrapper source keeps its existing license.
+> The demo limit belongs to **Vdevice**, the driver used by this project. The [Vdevice store](https://licences.configcsa.com/vdevice) lists the €400 Lifetime license and activation instructions.
 <!-- full-version-contact:end -->
