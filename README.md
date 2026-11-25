@@ -14,12 +14,12 @@ Create and exercise a **virtual USB HID test device** from an editable report de
 
 ![HID Fixture Studio](docs/app.png)
 
-**[Download HID Fixture Studio for Windows x64](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.1)** · [Contact titancsa on Discord](https://titancsa.github.io/about/evidence/#release-contact)
+**[Download HID Fixture Studio for Windows x64](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.2)** · [Contact titancsa on Discord](https://titancsa.github.io/about/evidence/#release-contact)
 
 ## Install and use
 
 1. Windows 10/11 **x64**: extract the complete release ZIP.
-2. Run `Dependencies/VdeviceSetup.exe`, choose Install, and restart Windows if requested. Release 0.1.1 bundles the [signed Vdevice 1.0.6.0 demo](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.0-demo) and its matching C++ SDK.
+2. Run `Dependencies/VdeviceSetup.exe`, choose Install, and restart Windows if requested. Release 0.1.2 bundles the [signed Vdevice 1.0.6.0 demo](https://github.com/TitanCSA/Vdevice/releases/tag/v1.0.6.0-demo) and its matching C++ SDK.
 3. Open `HIDFixtureStudio.exe`. Choose a mouse/keyboard fixture, or edit the VID/PID, raw report descriptor and input length.
 4. Choose **Validate offline**, then **Create device**. Live access requests administrator elevation when needed. Wait for Ready.
 5. Enter exact hex report bytes and choose **Send raw report**. Use a neutral report to release held keys/buttons. **Disconnect** removes the fixture; closing the application also removes its owned device.
