@@ -1,20 +1,32 @@
 # HID Fixture Studio
 
+<!-- simple-start:start -->
+Build a virtual USB test device and send it sample data.
+
+**Try it**
+
+1. Extract the [Windows ZIP](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.2) and open **HIDFixtureStudio.exe**.
+2. Choose a mouse or keyboard sample, then click **Validate offline**. The app tells you whether the sample is valid.
+3. To try a live device, install Vdevice from **Dependencies**, then click **Create device**.
+<!-- simple-start:end -->
+
 <!-- full-version-contact:start -->
 > [!IMPORTANT]
-> **Get the version without the one-hour demo limit**
+> **Version without the one-hour demo limit**
 >
-> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
-> Mention **HID-Fixture-Studio** and ask for the full **Vdevice** driver. TitanCSA will share the purchase details privately.
->
-> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+> In [Discord](https://discord.com/app), choose **Add Friend** and enter **`titancsa`**. Mention **HID-Fixture-Studio** and ask for the full **Vdevice** driver. Purchase details are sent privately.
 <!-- full-version-contact:end -->
+
+<details>
+<summary>Project details and screenshots</summary>
 
 Create and exercise a **virtual USB HID test device** from an editable report descriptor. A compact Windows C++ application for QA, accessibility research and HID integration work, powered by [Vdevice](https://github.com/TitanCSA/Vdevice).
 
 ![HID Fixture Studio](docs/app.png)
 
 **[Download HID Fixture Studio for Windows x64](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.2)** · [Contact titancsa on Discord](https://titancsa.github.io/about/evidence/#release-contact)
+
+</details>
 
 ## Install and use
 
@@ -72,5 +84,3 @@ Install Visual Studio 2022 C++ tools, Windows SDK and CMake, then run:
 Built for lawful testing, accessibility and software development. You are responsible for authorizations, laws and third-party rules. Illegal, malicious and unauthorized uses are not endorsed. Provided **AS IS**, without warranties; to the extent permitted by law, the author is not liable for misuse or damages. Mandatory rights remain unaffected. Driver binaries have separate distribution terms.
 
 ## Commercial integration and support
-
-
