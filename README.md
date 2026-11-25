@@ -1,10 +1,20 @@
 # HID Fixture Studio
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the version without the one-hour demo limit**
+>
+> **Discord · `titancsa`**. Open [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send a message.
+> Mention **HID-Fixture-Studio** and ask for the full **Vdevice** driver. TitanCSA will share the purchase details privately.
+>
+> **FR · Version sans la limite d’une heure.** Ajoute **`titancsa`** sur Discord et envoie le nom du projet. Le lien d’achat est communiqué en privé.
+<!-- full-version-contact:end -->
+
 Create and exercise a **virtual USB HID test device** from an editable report descriptor. A compact Windows C++ application for QA, accessibility research and HID integration work, powered by [Vdevice](https://github.com/TitanCSA/Vdevice).
 
 ![HID Fixture Studio](docs/app.png)
 
-**[Download HID Fixture Studio for Windows x64](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.1)** · [Vdevice Release · €400 Lifetime](https://licences.configcsa.com/vdevice)
+**[Download HID Fixture Studio for Windows x64](https://github.com/titanfyre/HID-Fixture-Studio/releases/tag/v0.1.1)** · [Contact titancsa on Discord](https://titancsa.github.io/about/evidence/#release-contact)
 
 ## Install and use
 
@@ -63,13 +73,4 @@ Built for lawful testing, accessibility and software development. You are respon
 
 ## Commercial integration and support
 
-<!-- full-version-contact:start -->
-> [!IMPORTANT]
-> **Get the full driver version without demo restrictions**
->
-> **Discord username: `titancsa`**
->
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message for integration or support and mention **HID Fixture Studio**.
->
-> The demo limit belongs to **Vdevice**, the driver used by this project. The [Vdevice store](https://licences.configcsa.com/vdevice) lists the €400 Lifetime license and activation instructions.
-<!-- full-version-contact:end -->
+
