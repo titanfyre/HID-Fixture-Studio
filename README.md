@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Build a virtual USB test device and send it sample data.
 
-**Start here.** Extract the [Windows ZIP](https://github.com/titanfyre/HID-Fixture-Studio/releases/latest) and open **HIDFixtureStudio.exe**. Choose a mouse or keyboard example, then click **Validate offline**. [See the screen](https://titancsa.github.io/guides/first-run/#studio).
+[First steps](#first-steps) · [Develop](#build-and-verify) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Extract the [Windows ZIP](https://github.com/titanfyre/HID-Fixture-Studio/releases/latest) and open **HIDFixtureStudio.exe**. Choose a mouse or keyboard example, then click **Validate offline**. [See the screen](https://titancsa.github.io/guides/first-run/#studio).
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
